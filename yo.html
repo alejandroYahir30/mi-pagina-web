@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mi Información Personal</title>
+  <style>
+    /* Estilos para el navbar */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f0f2f5;
+    }
+
+    nav {
+      background-color: #0077cc;
+      padding: 15px 20px;
+      display: flex;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-right: 20px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    /* Estilos para la tabla */
+    .container {
+      max-width: 600px;
+      margin: 40px auto;
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+
+    th, td {
+      padding: 12px 15px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #0077cc;
+      color: white;
+    }
+
+    tr:hover {
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Sobre mí</a>
+    <a href="#">Contacto</a>
+  </nav>
+
+  <div class="container">
+    <h1>Mi Información Personal</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Campo</th>
+          <th>Información</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Nombre</td>
+          <td>Tu Nombre Aquí</td>
+        </tr>
+        <tr>
+          <td>Correo</td>
+          <td>tuemail@ejemplo.com</td>
+        </tr>
+        <tr>
+          <td>Teléfono</td>
+          <td>+52 123 456 7890</td>
+        </tr>
+        <tr>
+          <td>Ciudad</td>
+          <td>Tu Ciudad Aquí</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>
